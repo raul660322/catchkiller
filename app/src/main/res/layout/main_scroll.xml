@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:orientation="vertical">
+
+	<HorizontalScrollView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="#3ED27B">
+
+		<ScrollView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<GridLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				rowCount="1"
+				columnCount="1"
+				android:background="#FDFDFD"
+				android:columnCount="5"
+				android:rowCount="5"
+				android:id="@+id/mainGridLayout1">
+
+				<ImageView
+					android:src="@drawable/loly"
+					android:layout_width="80dp"
+					android:layout_height="80dp"
+					android:layout_row="0"
+					android:layout_column="0"/>
+
+				<ImageView
+					android:src="@drawable/mary1"
+					android:layout_width="80dp"
+					android:layout_height="80dp"/>
+
+				<ImageView
+					android:src="@android:drawable/ic_delete"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+				<ImageView
+					android:src="@android:drawable/ic_delete"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"/>
+
+				<ImageView
+					android:src="@android:drawable/ic_delete"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_row="1"/>
+
+			</GridLayout>
+
+		</ScrollView>
+
+	</HorizontalScrollView>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Next"
+			android:onClick="nextOnClick"
+			android:id="@+id/nextButton"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

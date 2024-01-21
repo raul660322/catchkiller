@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CatchKiller</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="no0">Sorry. You are wrong!</string>
+	<string name="no1">Oops! You got the wrong guy!</string>
+	<string name="no2">No, no, no! </string>
+	<string name="ok1">Congrats! You got the killer!</string>
+	<string name="ok2">Good job! You arrested the right person!</string>
+	<string name="ok3">Well done! Police department is proud of you</string>
+	
+</resources>
